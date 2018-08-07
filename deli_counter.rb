@@ -8,7 +8,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |customer, index|
       line_sentence = line_sentence + "#{index+1}. #{customer} "
     end 
-    puts line_sentence
+    puts line_sentence.chomp
   end 
 end 
 
