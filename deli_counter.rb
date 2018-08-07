@@ -8,6 +8,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |customer, index|
       line_sentence = line_sentence + "#{index}. #{customer} "
     end 
+    puts line_sentence
   end 
 end 
 
