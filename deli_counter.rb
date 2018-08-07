@@ -9,4 +9,4 @@ def line(katz_deli)
       print "#{index}. #{customer}"
   end 
 end 
-  
+
